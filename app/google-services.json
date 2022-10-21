@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "484209356717",
+    "project_id": "group13-pay",
+    "storage_bucket": "group13-pay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484209356717:android:00ad70a74988779714fb24",
+        "android_client_info": {
+          "package_name": "com.example.group13pay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484209356717-ghojd754rnsh3mloseoho4a8274kb31b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAQY6gV5FT5e2QMrs-rhFOL1-D1HOaMEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484209356717-ghojd754rnsh3mloseoho4a8274kb31b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

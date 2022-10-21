@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/archivo_black</item>
+        <item>@font/artifika</item>
+        <item>@font/bangers</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/bungee_outline</item>
+        <item>@font/candal</item>
+        <item>@font/cinzel_decorative_black</item>
+        <item>@font/comfortaa_bold</item>
+        <item>@font/days_one</item>
+        <item>@font/delius_swash_caps</item>
+        <item>@font/ewert</item>
+        <item>@font/fredericka_the_great</item>
+        <item>@font/julius_sans_one</item>
+        <item>@font/monoton</item>
+        <item>@font/offside</item>
+        <item>@font/quicksand_bold</item>
+        <item>@font/ultra</item>
+    </array>
+</resources>

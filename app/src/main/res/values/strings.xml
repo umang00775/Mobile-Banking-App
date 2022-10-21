@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Group13 Pay</string>
+    <string name="title_activity_google_map">GoogleMap</string>
+    <string name="title_activity_show_nearest_atm">ShowNearestATM</string>
+    <string name="map_key" translatable="false">AIzaSyDivWXwjTVE7dNvpCVL4ZL-NCCpX_5rL9s</string>
+    <string name="gold_statement">Enter Amount</string>
+</resources>

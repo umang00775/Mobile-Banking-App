@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InvestMoneyInPlatinum"
+    android:background="#fff"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredericka_the_great"
+                android:text="Invest Money In Platinum"
+                android:textColor="#000"
+                android:textSize="27dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/border"
+            android:padding="15dp"
+            android:backgroundTint="#e5e4e2">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/platinum_coin"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price (Per 10g) : ₹ 23,760.00"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:textColor="#000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="You Have : "
+                        android:textSize="18dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:id="@+id/set_have_platinum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:id="@+id/sell_gold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SELL"
+                        android:textSize="19dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:textColor="#000"
+                        android:layout_marginLeft="10dp"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enter How Much Platinum You Want To Buy"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:textSize="18dp"
+                    android:textColor="#000"/>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/input"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:boxStrokeColor="#000"
+                    android:textColorHint="#000"
+                    app:hintTextColor="#000">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:textColor="#000"
+                        android:inputType="number"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/quicksand_bold"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+                <TextView
+                    android:id="@+id/calc_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Calculate Price"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#0000FF"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/quicksand_bold"/>
+                <TextView
+                    android:id="@+id/show_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/quicksand_bold"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+            <Button
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:textColor="#fff"
+                android:backgroundTint="#444"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/quicksand_bold"/>
+            <Button
+                android:id="@+id/back_to_home"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:backgroundTint="#444"
+                android:textColor="#fff"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
